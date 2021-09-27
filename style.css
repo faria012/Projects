@@ -1,8 +1,16 @@
 body{
+    margin: 0px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+    padding: 10px 10px;
 }
 .name-highlight{
     color: darkslateblue;
@@ -13,8 +21,53 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
     
+    
 }
 .half-width img{
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
+
+
+    
+}
+.top-banner{
+    background-image: url("img/backimg.jpg");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.para-highlight{
+    color: blueviolet;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+}
+.experience-area{
+    background-image: url("img/backg.jpg");
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
